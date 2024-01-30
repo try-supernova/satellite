@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { program } from "commander";
 import {readFile} from "fs/promises"
 const {version} = JSON.parse(
