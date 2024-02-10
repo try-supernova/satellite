@@ -1,6 +1,6 @@
 {
   "name": "@use-pluto/satellite",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Satellite is an all-purpose open source SDK for building apps on Pluto ✨",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -67,7 +67,6 @@
     "emoji-regex": "^8.0.0",
     "entities": "^3.0.1",
     "error-ex": "^1.3.2",
-    "esbuild": "^0.20.0",
     "escalade": "^3.1.1",
     "escape-string-regexp": "^1.0.5",
     "fill-range": "^7.0.1",
