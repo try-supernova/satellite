@@ -1,4 +1,4 @@
-import { log } from "./util/logging.ts"
+import { log } from "../util/logging.ts"
 
 export function sendRequest(data: any): Promise<any> {
     const callID = Math.random().toString().substring(2, 9)
