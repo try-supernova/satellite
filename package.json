@@ -1,13 +1,14 @@
 {
   "name": "@use-pluto/satellite",
-  "version": "0.0.13",
+  "version": "0.0.17",
   "description": "Satellite is an all-purpose open source SDK for building apps on Pluto ✨",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx parcel build && node src/scripts/postbuild.js"
+    "build": "npx parcel build && node src/scripts/postbuild.js",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
