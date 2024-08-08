@@ -1,1 +1,5 @@
-export {createElement} from "./createElement.ts";
+import {CreateElement} from "./createElement.ts";
+
+export const UI = {
+    CreateElement,
+}
