@@ -1,6 +1,6 @@
 {
   "name": "@use-pluto/satellite",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Satellite is an all-purpose open source SDK for building apps on Pluto ✨",
   "source": "src/index.ts",
   "main": "dist/index.js",
