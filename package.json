@@ -4,21 +4,14 @@
   "description": "Satellite is an all-purpose open source SDK for building apps on Pluto ✨",
   "source": "src/index.ts",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx parcel build && node scripts/postbuild.js",
+    "build": "npx parcel build --no-source-maps && node scripts/postbuild.js",
     "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/use-pluto/satellite.git"
-  },
-  "keywords": [
-    "pluto"
-  ],
-  "bin": {
-    "satellite": "./dist/index.js"
   },
   "author": "stretch07",
   "license": "GPL-2.0-only",
