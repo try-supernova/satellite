@@ -1,7 +1,7 @@
 {
-  "name": "@use-pluto/satellite",
+  "name": "@use-supernova/satellite",
   "version": "0.0.22",
-  "description": "Satellite is an all-purpose open source SDK for building apps on Pluto ✨",
+  "description": "Satellite is an all-purpose open source SDK for building apps on Supernova ✨",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/use-pluto/satellite.git"
+    "url": "git+https://github.com/use-supernova/satellite.git"
   },
   "author": "stretch07",
   "license": "GPL-2.0-only",
   "bugs": {
-    "url": "https://github.com/use-pluto/satellite/issues"
+    "url": "https://github.com/use-supernova/satellite/issues"
   },
-  "homepage": "https://github.com/use-pluto/satellite#readme",
+  "homepage": "https://github.com/use-supernova/satellite#readme",
   "type": "module",
   "devDependencies": {
     "@parcel/packager-ts": "^2.11.0",
